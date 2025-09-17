@@ -1,0 +1,33 @@
+{
+  "name": "m3-flooring-scripts",
+  "version": "1.0.0",
+  "description": "M3 H5 Scripts for the flooring industry",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint examples/**/*.js templates/**/*.js || true",
+    "docs": "jsdoc -c jsdoc.json",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "keywords": [
+    "m3",
+    "h5",
+    "infor",
+    "flooring",
+    "javascript",
+    "erp"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jsdoc": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrbca/M3_Flooring_Scripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harrbca/M3_Flooring_Scripts/issues"
+  },
+  "homepage": "https://github.com/harrbca/M3_Flooring_Scripts#readme"
+}
